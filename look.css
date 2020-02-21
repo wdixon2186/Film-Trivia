@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  background-color: white;
+}
+button {
+  width: 300px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+button:hover {
+  background-color: grey;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+div {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit {
+  background: green;
+  width: 606px;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+#submit:hover {
+  background-color: orange;
+}
+#bottom {
+  padding: 0px 0px 500px 0px;
+}
+
+#modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+  display: none;
+}
+#modalTextbox {
+  background-color: white;
+  height: 350px;
+  width: 550px;
+  border-radius: 2px;
+  margin: 150px auto;
+  padding: 2%;
+  line-height: 120%;
+  font-family: "Arial";
+}
+
+#modalFooter {
+  text-align: right;
+}
+
+h1 {
+  padding-bottom: 15px;
+}
+
+.modal-buttons {
+  padding: 14px 18px;
+  background-color: #677996;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-family: "Arial";
+  cursor: pointer;
+}
+#score {
+  margin-left: 62%;
+  /* position: fixed; */
+  display: none;
+}
+#close {
+  background-color: red;
+  margin-top: 0px;
+  margin-bottom: 4000px;
+}
+#modalLarge {
+  color: blue;
+  padding: 50px;
+}
+section {
+  border: black;
+  border-width: 5px;
+  border-style: solid;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.int {
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+  font-size: 20px;
+}
+.char {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+  font-size: 20px;
+}
+.line {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+  background-color: yellow;
+}
+.B {
+  background-color: aqua;
+}
+.num {
+  text-align: right;
+  margin-right: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+}
